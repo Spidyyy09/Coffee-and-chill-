@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Made with 🫶", // required by Discord API, not shown in the client
         state: "Spidyyy",     // this is what people actually see
-        type: 4,               // Custom
+        type: 1,               // Custom
       },
     ],
   },
@@ -163,9 +163,9 @@ export const botConfig = {
       // Currency display name.
       name: "coins",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Cozy coins",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "💸",
     },
 
     // Starting balance for new users.
