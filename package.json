@@ -1,38 +1,17 @@
+
 {
-  "name": "titanbot",
-  "version": "2.1.0",
-  "description": "Modular Ultimate Community Bot by Touchpoint Support",
-  "main": "src/app.js",
-  "type": "module",
+  "name": "chilly-discord-bot",
+  "version": "1.0.0",
+  "description": "Chilly - All-in-One Discord Bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "migrate": "node scripts/migrate.js apply",
-    "migrate:check": "node scripts/migrate.js check",
-    "migrate:status": "node scripts/migrate.js status",
-    "migrate:keys": "node scripts/migrate-keys.js",
-    "migrate:keys:dry": "node scripts/migrate-keys.js --dry-run",
-    "backup:db": "node scripts/backup.js",
-    "restore:db": "node scripts/restore.js",
-    "backup:drill": "node scripts/restore-drill.js"
-  },
-  "dependencies": {
-    "@discordjs/rest": "^2.6.1",
-    "axios": "^1.15.2",
-    "discord.js": "^14.26.4",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "node-cron": "^4.2.1",
-    "pg": "^8.11.3",
-    "winston": "^3.19.0",
-    "winston-daily-rotate-file": "^5.0.0",
-    "zod": "^3.25.76",
-    "riffy": "1.0.12"
+    "start": "node index.js"
   },
   "engines": {
-    "node": ">=20.10.0"
+    "node": "22.x"
   },
-  "overrides": {
-    "form-data": "^4.0.6",
-    "undici": "^6.27.0"
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "better-sqlite3": "^11.10.0"
   }
 }
